@@ -7,8 +7,8 @@ button:focus, input:focus {
 }
 
 .main {
-    width: 100vw;
-    height: auto;
+    width: 100%;
+    min-height: 100vh;
     background: rgb(34, 34, 34);
     color: #fff;
     padding-top: 100px;
@@ -47,5 +47,6 @@ button.search-form__button{
 .main-chart {
     margin-top: 30px;
     width: 100%;
+    height: 300px;
 }
 

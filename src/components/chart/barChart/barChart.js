@@ -7,7 +7,7 @@ export default function BarChartComponent() {
 
     return (
         <div className="main-chart">
-            <ResponsiveContainer width="100%" height="60%">
+            <ResponsiveContainer width="100%" height="100%">
                 <BarChart
                     width={1000}
                     height={300}
