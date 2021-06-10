@@ -29,6 +29,7 @@ export const fetchForecast = (input) => {
                 dispatch({type: "MAP_FORECAST", payload: data})
             })
             .catch(() => {
+                dispatch({type:"GET_CITY", payload: ''})
                 dispatch({type: "ERROR_CATCH", payload: true})
                 dispatch({type: "SET_LOAD", payload: false})
             })
