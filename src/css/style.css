@@ -8,11 +8,12 @@ button:focus, input:focus {
 
 .main {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     background: rgb(34, 34, 34);
     color: #fff;
     padding-top: 100px;
     font-family: 'Montserrat', serif;
+    overflow-x: hidden;
 }
 
 .search-text {
@@ -45,5 +46,6 @@ button.search-form__button{
 
 .main-chart {
     margin-top: 30px;
+    width: 100%;
 }
 
